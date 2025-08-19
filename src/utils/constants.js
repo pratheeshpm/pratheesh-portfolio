@@ -1,0 +1,58 @@
+const projects = [
+  {
+    id: 1,
+    title: "Doordarshan - WebRTC Video Platform",
+    description: "Next-Gen WebRTC Video Conferencing Platform using MediaSoup as Agora replacement. Built with Go/Rust backend and React frontend for Allen Digital.",
+    technologies: "Go, Rust, React, MediaSoup, WebRTC, Android (Kotlin)",
+    src: "/images/projectsImages/academloshop.webp",
+    demo: "#",
+    code: "#",
+  },
+  {
+    id: 2,
+    title: "Allen Content Platform",
+    description: "Flagship content management platform serving 6.5K daily learners with AI-powered FlashCards, live class interactive suite, and smart revision notes.",
+    technologies: "TypeScript, React, TurboRepo, Vite, Firebase, AI/ML",
+    src: "/images/projectsImages/easyshop.webp",
+    demo: "#",
+    code: "#",
+  },
+  {
+    id: 3,
+    title: "Dailyhunt PWA",
+    description: "Built from scratch highly fast and reliable native-feel PWA of Dailyhunt mobile and desktop website with push notifications, offline mode, and SSR.",
+    technologies: "React.js, Express.js, Webpack, Babel, MobX",
+    src: "/images/projectsImages/weatherapp.webp",
+    demo: "#",
+    code: "#",
+  },
+  {
+    id: 4,
+    title: "Text-to-Movie AI Project",
+    description: "Hackathon-winning project that converts news into short videos, rap songs using Suno's Chirp model, and memes using DALL-E 3, GPT-Vision, and Meta's MusicGen.",
+    technologies: "Node.js, DALL-E 3, GPT-Vision, LLaVa, Autogen, MusicGen",
+    src: "/images/projectsImages/rickandmorty.webp",
+    demo: "#",
+    code: "#",
+  },
+  {
+    id: 5,
+    title: "Autogen-UI Examples",
+    description: "System design using Microsoft's Autogen recipe, teachable agents with YouTube tutorials. Includes LangChain, LM-Studio, open-source LLMs, and RAG implementations.",
+    technologies: "Python, Microsoft Autogen, LangChain, RAG, Open-source LLMs",
+    src: "/images/projectsImages/pokedex.webp",
+    demo: "#",
+    code: "#",
+  },
+  {
+    id: 6,
+    title: "MENA News PWA",
+    description: "Mobile and desktop PWA news app targeted for Middle East Nations. Initially built native apps in React-Native and Flutter as MVP.",
+    technologies: "React Native, Flutter, Next.js, PWA",
+    src: "/images/projectsImages/dogsblog.webp",
+    demo: "#",
+    code: "#",
+  },
+];
+
+export default projects;

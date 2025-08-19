@@ -1,0 +1,3 @@
+# Ignore Yarn PnP generated files
+.pnp.cjs
+.pnp.loader.mjs
