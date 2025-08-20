@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -36,6 +36,24 @@ const MobileSocialLinks = () => {
         },
         {
             id: 4,
+            child: (
+                <>
+                    <FaYoutube size={20} /> YouTube
+                </>
+            ),
+            href: 'https://youtu.be/AlGdsjcVbSc?si=u3fELbPYrUDnGIeh'
+        },
+        {
+            id: 5,
+            child: (
+                <>
+                    <FaInstagram size={20} /> Instagram
+                </>
+            ),
+            href: 'https://www.instagram.com/ai_chroniclez?igsh=MWdsczEyN3prdnR0eA=='
+        },
+        {
+            id: 6,
             child: (
                 <>
                     <BsFillPersonLinesFill size={20} /> Resume 

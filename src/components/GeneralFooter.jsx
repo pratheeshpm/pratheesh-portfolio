@@ -13,6 +13,14 @@ const GeneralFooter = () => {
                     <i className='bx bxl-linkedin-square' ></i>
                 </a>
 
+                <a className='text-4xl hover:text-primary-color hover:animate-bounce' target='_blank' href="https://youtu.be/AlGdsjcVbSc?si=u3fELbPYrUDnGIeh">
+                    <i className='bx bxl-youtube' ></i>
+                </a>
+
+                <a className='text-4xl hover:text-primary-color hover:animate-bounce' target='_blank' href="https://www.instagram.com/ai_chroniclez?igsh=MWdsczEyN3prdnR0eA==">
+                    <i className='bx bxl-instagram' ></i>
+                </a>
+
 
             </div>
 
