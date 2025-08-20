@@ -21,82 +21,51 @@ const AllProjects = () => {
         {
             id: 1,
             src: easyshop,
-            demo: 'https://easyshop-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/EasyShop'
+            demo: 'https://github.com/pissaypratheesh/autogen-ui-examples',
+            code: 'https://github.com/pissaypratheesh/autogen-ui-examples'
         },
         {
             id: 2,
             src: acciovocabulary,
-            demo: 'https://diegotellezc.github.io/landing-accio-vocabulary/',
-            code: 'https://github.com/diegotellezc/landing-accio-vocabulary'
+            demo: 'https://github.com/pissaypratheesh/chatgpt-clone',
+            code: 'https://github.com/pissaypratheesh/chatgpt-clone'
         },
         {
             id: 3,
             src: dogsblog,
-            demo: 'https://dogs-blog-diegotellezdev.netlify.app/',
-            code: 'https://github.com/diegotellezc/dogsBlog'
+            demo: 'https://github.com/pissaypratheesh/virtualized-bidirectional-infinite-scroll',
+            code: 'https://github.com/pissaypratheesh/virtualized-bidirectional-infinite-scroll'
         },
         {
             id: 4,
             src: academloshop,
-            demo: 'https://academlostoregen24.netlify.app/',
-            code: 'https://github.com/diegotellezc/academloShop'
+            demo: 'https://github.com/pissaypratheesh/mediasoup-client-web',
+            code: 'https://github.com/pissaypratheesh/mediasoup-client-web'
         },
         {
             id: 5,
             src: weatherapp,
-            demo: 'https://weatherappbydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/weather-app'
+            demo: 'https://github.com/pissaypratheesh/mediasoup-client-android',
+            code: 'https://github.com/pissaypratheesh/mediasoup-client-android'
         },
         {
-            
             id: 6,
             src: rickandmorty,
-            demo: 'https://rickandmorty-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            demo: 'https://github.com/pissaypratheesh/singleton-renderer',
+            code: 'https://github.com/pissaypratheesh/singleton-renderer'
         },
         {
             id: 7,
             src: todomachine,
-            demo: 'https://diegotellezc.github.io/toDoMachine/',
-            code: 'https://github.com/diegotellezc/toDoMachine'
+            demo: 'https://pratheeshpm.netlify.app',
+            code: 'https://github.com/pratheeshpm/pratheesh-portfolio'
         },
         {
             id: 8,
             src: crud,
-            demo: 'https://users-crud-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/Users-CRUD'
-        },
-        {
-            id: 9,
-            src: moviepedia,
-            demo: 'https://diegotellezc.github.io/Moviepedia/',
-            code: 'https://github.com/diegotellezc/Moviepedia'
-        },
-        {
-            id: 10,
-            src: pokedex,
-            demo: 'https://pokedex-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/pokedex'
-        },
-        {
-            id: 11,
-            src: tictactoe,
-            demo: 'https://tictactoebydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/Tictactoebydt'
-        },
-        {
-            id: 12,
-            src: fortunecookies,
-            demo: 'https://fortunecookiesapp.netlify.app/',
-            code: 'https://github.com/diegotellezc/fortuneCookies'
-        },
-        {
-            id: 13,
-            src: soccerquotes,
-            demo: 'https://soccerquotes.netlify.app/',
-            code: 'https://github.com/diegotellezc/soccerQuotes'
-        },
+            demo: 'https://github.com/pissaypratheesh',
+            code: 'https://github.com/pissaypratheesh'
+        }
     ]
 
     const handleClickDemo = (demoUrl) => {
@@ -118,7 +87,7 @@ const AllProjects = () => {
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <h2 className='text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-5xl'>Projects</h2>
-                    <p className='py-6'>Check out my best web applications here.</p>
+                    <p className='py-6'>Explore my professional projects and open-source contributions.</p>
                 </div>
 
                 <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>

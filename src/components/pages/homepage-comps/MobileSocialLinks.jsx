@@ -13,7 +13,7 @@ const MobileSocialLinks = () => {
                     <FaLinkedin size={20} /> LinkedIn
                 </>
             ),
-            href: 'https://www.linkedin.com/in/diegotellezc/',
+            href: 'https://www.linkedin.com/in/pratheesh-pm/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const MobileSocialLinks = () => {
                     <FaGithub size={20} /> GitHub 
                 </>
             ),
-            href: 'https://github.com/diegotellezc'
+            href: 'https://github.com/pissaypratheesh'
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const MobileSocialLinks = () => {
                     <HiOutlineMail size={20} /> Mail
                 </>
             ),
-            href: 'mailto:diegotellezdev@gmail.com'
+            href: 'mailto:pissaypratheesh@gmail.com'
         },
         {
             id: 4,
@@ -41,7 +41,7 @@ const MobileSocialLinks = () => {
                     <BsFillPersonLinesFill size={20} /> Resume 
                 </>
             ),
-            href: '/FullStack_Developer_DiegoTellez.pdf',
+            href: '/PratheeshPM_2025_Resume_updated.pdf',
             style: 'rounded-br-md',
             download: true
         }

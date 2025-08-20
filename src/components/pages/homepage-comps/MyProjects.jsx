@@ -29,7 +29,7 @@ const MyProjects = () => {
           <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-5xl pb-1">
             Projects
           </h2>
-          <p className="py-6">Check out some of my work here</p>
+          <p className="py-6">Explore my professional projects showcasing expertise in AI/ML, WebRTC, and large-scale system architecture</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-6">

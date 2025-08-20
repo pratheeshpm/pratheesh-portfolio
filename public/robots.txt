@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pratheeshpm.netlify.app/sitemap.xml
+
+# Important pages for job search
+Allow: /about
+Allow: /projects
+Allow: /contact
+
+# Resume/CV
+Allow: /PratheeshPM_2025_Resume_updated.pdf
+
+# Disallow unnecessary files
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /src/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

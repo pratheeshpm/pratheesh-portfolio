@@ -8,7 +8,7 @@ const AboutSectionAbout = () => {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-24 lg:py-0 lg:flex-row lg:gap-8'>
                 
                 <div className='flex mt-8 md:mt-0'>
-                    <img src="/images/diego-videospage.webp" alt="My profile" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} />
+                    <img src="/images/diegoAI.webp" alt="Pratheesh PM" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} />
                 </div>
 
                 <div className='flex flex-col justify-center items-center h-[85%] md:h-full'>
@@ -16,13 +16,12 @@ const AboutSectionAbout = () => {
                     <h1 className='text-4xl md:text-5xl font-bold text-white mb-2 md:mb-4'>Who I am?</h1>
 
                     <div className='flex items-center bg-primary-color/20 rounded-md py-2 px-4'>
-                        <img className='h-[30px] w-auto mr-2' src="/icons/colombia.png" alt="" />
-                        <h2 className='text-lg sm:text-xl md:text-2xl md:py-1 font-semibold text-white'>Colombian - 30 years old</h2>
+                        <h2 className='text-lg sm:text-xl md:text-2xl md:py-1 font-semibold text-white'>Principal Software Engineer</h2>
                     </div>
                     
-                    <p className='text-md md:text-lg text-gray-300 py-4 max-x-md text-justify'>I am a professional graduated from Politécnico Grancolombiano University and for the past eight years, I've been immersed in the dynamic world of video editing, working with "Noticias Caracol", which is not only the most-watched newcast in Colombia but also has alliances with several countries worldwide.</p>
+                    <p className='text-md md:text-lg text-gray-300 py-4 max-x-md text-justify'>I'm a passionate engineer with 12 years of experience, with major contributions building systems that serve large-scale customers. I graduated with a BE in Information Science and Engineering from R.V College Of Engineering with a CGPA of 9.2.</p>
 
-                    <p className='text-md md:text-lg text-gray-300 max-x-md text-justify'>This experience has given me incredible opportunities to collaborate with diverse teams and shoulder substantial responsibilities. As the last line of defense before content went live, I honed my skills in working effectively with large teams and ensuring top-notch results.</p>
+                    <p className='text-md md:text-lg text-gray-300 max-x-md text-justify'>My journey spans across industry leaders like Allen Digital (India's leading Ed-tech platform), Dailyhunt (India's leading news app), Myntra (Flipkart subsidiary), and even global companies like Disney's Playdom. I specialize in AI/ML systems, WebRTC platforms, scalable architectures, and have built everything from hackathon-winning AI projects to enterprise-grade content management systems serving thousands of users daily.</p>
                 </div>
             </div>
 
