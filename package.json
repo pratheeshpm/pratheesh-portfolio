@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "./deploy-netlify.sh",
+    "deploy:prod": "./deploy-netlify.sh production",
+    "deploy:open": "./deploy-netlify.sh preview open",
+    "deploy:prod:open": "./deploy-netlify.sh production open"
   },
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
@@ -42,6 +46,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "netlify-cli": "^23.4.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1",
     "vite": "^4.3.2"
