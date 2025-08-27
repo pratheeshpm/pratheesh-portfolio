@@ -1,33 +1,46 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-scroll"
+import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
     
     const links = [
         {
             id: 1,
-            link: "Home"
+            link: "Home",
+            type: "scroll"
         },
         {
             id: 2,
-            link: "About"
+            link: "About",
+            type: "scroll"
         },
         {
             id: 3,
-            link: "Projects"
+            link: "Projects",
+            type: "scroll"
         },
         {
             id: 4,
-            link: 'Technologies'
+            link: 'Technologies',
+            type: "scroll"
         },
         {
             id: 5,
-            link: "Education"
+            link: "System Design",
+            type: "route",
+            path: "/system-design"
         },
         {
             id: 6,
-            link: "Contact"
+            link: "Education",
+            type: "scroll"
+        },
+        {
+            id: 7,
+            link: "Contact",
+            type: "scroll"
         }
     ]
 
@@ -59,9 +72,13 @@ const Navbar = () => {
             </div>
 
             <ul className='hidden lg:flex'>
-                {links.map(({ id, link }) => (
+                {links.map(({ id, link, type, path }) => (
                     <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black text-[1.1rem] lg:text-[1.3rem]'>
-                        <Link to={link} smooth duration={500}>{link}</Link>
+                        {type === "route" ? (
+                            <NavLink to={path} target="_blank" rel="noopener noreferrer" className="hover:text-current">{link}</NavLink>
+                        ) : (
+                            <Link to={link} smooth duration={500}>{link}</Link>
+                        )}
                     </li>
                 ))}
             </ul>
@@ -73,15 +90,26 @@ const Navbar = () => {
             {isShowNav && (
             <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-black to-green-950 opacity-90'>
 
-                {links.map(({ id, link }) => (
+                {links.map(({ id, link, type, path }) => (
                         <li  
                         key={id} 
                         className='px-4 cursor-pointer py-6 text-4xl opacity-100'>
-                            <Link 
-                            onClick={() => setIsShowNav(!isShowNav)}
-                            to={link} 
-                            smooth 
-                            duration={500}>{link}</Link>
+                            {type === "route" ? (
+                                <NavLink 
+                                    onClick={() => setIsShowNav(!isShowNav)}
+                                    to={path} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="hover:text-primary-color transition-colors">
+                                    {link}
+                                </NavLink>
+                            ) : (
+                                <Link 
+                                    onClick={() => setIsShowNav(!isShowNav)}
+                                    to={link} 
+                                    smooth 
+                                    duration={500}>{link}</Link>
+                            )}
                         </li>
                 ))}
             </ul> )}

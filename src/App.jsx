@@ -6,6 +6,7 @@ import SocialLinks from "./components/SocialLinks"
 import GeneralFooter from "./components/GeneralFooter"
 import AllProjectsPage from "./components/pages/AllProjectsPage"
 import AllTechsPage from "./components/pages/AllTechsPage"
+import SystemDesignPage from "./components/pages/SystemDesignPage"
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="/projects" element={<AllProjectsPage />}/>
 
         <Route path="/technologies" element={<AllTechsPage />}/>
+
+        <Route path="/system-design" element={<SystemDesignPage />}/>
 
       </Routes>
 
