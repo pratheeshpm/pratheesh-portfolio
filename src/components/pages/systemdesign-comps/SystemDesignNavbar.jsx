@@ -29,7 +29,7 @@ const SystemDesignNavbar = () => {
         <span className="text-gray-400 mx-2">|</span>
         <h1 className='text-[1.1rem] lg:text-[1.3rem] text-gray-200'>
           <i className='bx bx-brain mr-2 text-base'></i>
-          System Design Documentation
+          System Design
         </h1>
       </div>
     </header>

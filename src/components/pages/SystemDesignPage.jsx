@@ -159,7 +159,7 @@ const SystemDesignPage = () => {
         <div className="pt-20 flex items-center justify-center min-h-screen">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading system design documentation...</p>
+            <p className="mt-4 text-gray-600">Loading system design...</p>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ const SystemDesignPage = () => {
           {/* Header */}
           <div className="mb-8">
             <div className="text-center mb-6">
-              <h1 className="text-4xl font-bold text-gray-900 mb-2">System Design Documentation</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-2">System Design</h1>
               <p className="text-lg text-gray-600">Comprehensive guides for backend and frontend system architecture</p>
               {/* Search Results Indicator */}
               {searchTerm && (
@@ -527,7 +527,7 @@ const SystemDesignPage = () => {
                 </p>
               ) : (
                 <p className="text-gray-400 mt-2">
-                  System design documentation will appear here
+                  System design will appear here
                 </p>
               )}
             </div>

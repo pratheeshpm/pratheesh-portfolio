@@ -22,7 +22,7 @@ requiredDirs.forEach(dir => {
     console.log(`✅ Directory exists: ${dir}`);
   } else {
     console.log(`❌ Directory missing: ${dir}`);
-    console.log(`   Please ensure your system design documentation is in place.`);
+    console.log(`   Please ensure your system design is in place.`);
   }
 });
 
@@ -90,10 +90,10 @@ console.log('   npm run build');
 console.log('   (then deploy the dist/ folder to Netlify)');
 
 console.log('\n📝 Features available:');
-console.log('   - Browse system design documentation');
+console.log('   - Browse system design');
 console.log('   - Search and filter by backend/frontend');
 console.log('   - Edit system design documents');
 console.log('   - Responsive design for mobile and desktop');
 console.log('   - SEO-friendly URLs and navigation');
 
-console.log('\n✨ Setup complete! Your system design documentation is ready to use.');
+console.log('\n✨ Setup complete! Your system design is ready to use.');

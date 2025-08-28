@@ -6,8 +6,17 @@ Principal Software Engineer
 I’m a passionate engineer with 12 years of experience, major contribution being building systems that are facing large scale customers. Aiming to pursue greater excellence and growth by contributing to the best of my skills and work hard to meet greater challenges in organisation.
 
 ## Technology Skills
-**Programming Languages:** Typescript, Javascript, Python, Go, Rust.
-**Frameworks and Libraries:** NodeJS, ExpressJS, ReactJS, LLMs, Mobx, TensorflowJS for Machine Learning and Deep Learning, FastAPI, Apache Spark, Flutter, React-Native, Unity3d for gaming etc.
+**Programming Languages:** TypeScript, JavaScript, Python, Go, Rust, Kotlin, C/C++, Java
+
+**Frameworks and Libraries:** NodeJS, ExpressJS, ReactJS, NextJS, Vue.js, FastAPI, Apache Spark, Flutter, React-Native, Unity3d, InfernoJS, MobX, Redux
+
+**AI/ML & Emerging Tech:** LLMs (GPT-4, Claude), TensorflowJS, PyTorch, LangChain, Autogen, RAG implementations, DALL-E 3, GPT Vision, Computer Vision, NLP, Vector databases
+
+**Modern Development:** Progressive Web Apps (PWAs), WebRTC, MediaSoup, AI-assisted development, DevSecOps, Edge Computing, Real-time systems, Microservices, GraphQL, gRPC
+
+**Databases & Cloud:** PostgreSQL, MongoDB, Firebase, Aerospike, RethinkDB, AWS, Docker, CI/CD, IndexedDB, Elasticsearch
+
+**Specialized:** IoT integration, Blockchain basics, AR/VR content delivery, 3D model rendering, Smart TV development, Low-code platforms, Sustainable coding practices
 
 ## Professional Experience
 **Allen Digital, India's leading Ed-tech platform**  
