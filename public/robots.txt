@@ -10,7 +10,7 @@ Allow: /projects
 Allow: /contact
 
 # Resume/CV
-Allow: /PratheeshPM_2025_Resume_updated.pdf
+Allow: /PratheeshPM_Resume_2025_v2.pdf
 
 # Disallow unnecessary files
 Disallow: /build/

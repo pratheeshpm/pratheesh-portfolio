@@ -59,7 +59,7 @@ const MobileSocialLinks = () => {
                     <BsFillPersonLinesFill size={20} /> Resume 
                 </>
             ),
-            href: '/PratheeshPM_2025_Resume_updated.pdf',
+            href: '/PratheeshPM_Resume_2025_v2.pdf',
             style: 'rounded-br-md',
             download: true
         }
